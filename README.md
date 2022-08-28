@@ -6,19 +6,19 @@
 
 ### I am working on this project, please be patient, I will reach the result soon ...
 
-1. Due to the fact that I have a MAC OS M1, I need to do this in the terminal:
+- [x] Due to the fact that I have a MAC OS M1, I need to do this in the terminal:
 '''bash
 LDFLAGS="-L$(brew --prefix portaudio)/lib" CFLAGS="-I$(brew --prefix portaudio)/include" pip install pyaudio
 '''
-2. To make sure that everything works, you can find out the downloaded version in this way:
+- [x] To make sure that everything works, you can find out the downloaded version in this way:
 '''bash
 pip show PyAudio
 '''
-3. To check for performance with audio using the speech_recognition package, download by command:
+- [x] To check for performance with audio using the speech_recognition package, download by command:
 '''bash
 pip install SpeechRecognition
 '''
-4. Сheck if downloaded:
+- [x] Сheck if downloaded:
 '''bash
 pip show SpeechRecognition
 '''
