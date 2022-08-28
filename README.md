@@ -7,20 +7,20 @@
 ### I am working on this project, please be patient, I will reach the result soon ...
 
 - [x] Due to the fact that I have a MAC OS M1, I need to do this in the terminal:
-'''bash
+```bash
 LDFLAGS="-L$(brew --prefix portaudio)/lib" CFLAGS="-I$(brew --prefix portaudio)/include" pip install pyaudio
-'''
+```
 - [x] To make sure that everything works, you can find out the downloaded version in this way:
-'''bash
+```bash
 pip show PyAudio
-'''
+```
 - [x] To check for performance with audio using the speech_recognition package, download by command:
-'''bash
+```bash
 pip install SpeechRecognition
-'''
+```
 - [x] Сheck if downloaded:
-'''bash
+```bash
 pip show SpeechRecognition
-'''
+```
 
 [⇪](#UP)
