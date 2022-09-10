@@ -14,13 +14,12 @@ LDFLAGS="-L$(brew --prefix portaudio)/lib" CFLAGS="-I$(brew --prefix portaudio)/
 ```bash
 pip show PyAudio
 ```
-- [x] To check for performance with audio using the speech_recognition package, download by command:
+- [x] We will also need these packages to work with sound:
 ```bash
-pip install SpeechRecognition
-```
-- [x] Сheck if downloaded:
-```bash
-pip show SpeechRecognition
+conda install -c conda-forge speechrecognition
+conda install -c pytorch torchaudio
+conda install -c pytorch pytorch
+pip install omegaconf
 ```
 
 [⇪](#UP)
